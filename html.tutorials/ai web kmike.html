@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Center the content */
+        body {
+            display: flex;
+            
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            
+            
+        }
+
+        /* Style the container */
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+
+        /* Style the heading */
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Style the paragraph */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #666;
+        }
+        form {
+            border: 3px solid #f1f1f1;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        /* Full-width inputs */
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        /* Set a style for the login button */
+        button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        /* Add a hover effect for buttons */
+        button:hover {
+            opacity: 0.8;
+        }
+
+        
+            
+    </style>
+</head>
+<body>
+    <h1>
+        <form action="action_page.php" method="post">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <button type="submit">Login</button>
+        </form>
+    </h1>
+
+    <div class="container">
+        <h2>About K'MIKE</h2>
+        <p>Welcome to K'MIKE! We are a passionate team of web developers dedicated to creating beautiful and functional websites. Our mission is to provide innovative solutions that empower businesses and individuals in the digital world.</p>
+        <p>Whether you need a stunning portfolio site, an e-commerce platform, or a custom web application, we've got you covered. Let's turn your ideas into reality!</p>
+    </div>
+   
+
+</body>
+</html>

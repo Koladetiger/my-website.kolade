@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: rgb(234, 229, 223);
+}
+h1{
+    color: rgb(50, 50, 203);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+h2{
+    padding: 30px;
+    width: 200px;
+    border: 2px solid  rgb(212, 210, 210);
+    background-color: rgb(252, 248, 248);
+    margin:auto;
+    
+
+}
+.container{
+    cursor:copy;
+}
+p{
+    font-size:12px;
+  text-align: left;
+}
+button{
+    background-color: rgb(7, 198, 109);
+    color: aliceblue;
+}
