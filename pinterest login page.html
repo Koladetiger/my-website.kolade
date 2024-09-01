@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="download.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Login Page</title>
+</head>
+<style>
+    .container{
+        border: 1px solid rgb(165, 158, 158);
+        border-radius: 20px;
+        width: 400px;
+        padding: 20px;
+        margin: auto;
+       
+    }
+    .facebook img{
+        margin-left: -250px;
+        width: 19px;
+        margin-top: 16px;
+
+    }
+    .facebook button{
+        width:290px;
+        padding: 1px;
+        margin-left:47px ;
+        font-family:Arial, Helvetica, sans-serif ;
+        margin-top: -5px;
+        color: white;
+        background-color: rgb(61, 61, 235);
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+  button[type="button"]:hover {
+    background-color:#3335ac;
+}
+
+    
+    .hero img{
+        width: 60px;
+        margin-left: 167px;
+    }
+    input{
+       border: 3px solid blue;
+       border-radius: 12px;
+       width: 299px;
+       padding: 15px;
+    }
+    h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        text-align: left;
+        margin-left: 50px;
+        margin-top: -20px;
+    }
+    .log button{
+        background-color:#f84646 ;
+        margin-left:45px;
+        font-size: 20px;
+        border: none;
+        border-radius: 10px;
+        width: 290px;
+        padding: 10px;
+        color: aliceblue;
+        cursor: pointer;
+        transition: background-color 0.2ms ease;
+    }
+  button[type="submit"]:hover {
+    background-color:#b72121;
+}   
+    
+    a{
+        text-decoration: none;
+    }
+    .terms p{
+        text-align: center;
+        a{
+            text-decoration:dotted;
+            color: black;
+        }
+    }
+    .OO{
+        margin-left: 180px;
+        margin-top: -10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   .content button{
+    border: none;
+    border-radius: 10px;
+    width: 90px;
+    padding: 6px;
+    margin-left: 490px;
+    cursor: pointer;
+    
+   }
+</style>
+<body>
+    <div class="content">
+        <a href="#"><button>Sign up</button></a>
+
+    </div>
+    
+    <div class="container">
+        <form action="#">
+            <div class="hero">
+                <img src="download.png" alt="">
+
+            </div>
+            
+    <h1>
+        Log in to see more
+    </h1>
+    <br><br>
+    <label for="Email">Email</label> <br>
+    <input type="email" placeholder="Email" required>
+    <br><br>
+    <label for="Password">Password</label> <br>
+    <input type="password" placeholder="Password"  required>
+    <a href="#"><p>Forgot your password?</p></a>
+    
+    <div class="log">
+        <button type="submit"> <b>Log In</b></button>
+    </div>
+    <br>
+    <p class="OO">OR</p>
+    <div class="facebook">
+        <button type="button">
+            <img src="download (1).png" alt="">
+            <h3>Continue with Facebook</h3>
+        </button>
+    </div>
+    <div class="terms">
+    <p>
+       By continuing you agree to pinterest <a href="#"><b>Terms of Service</b></a>
+       and acknowldge you have read our <a href="#"><b>Privacy Policy Notice at collection.</b></a>
+       <br><br>
+       <b>Not on Pinterest yet? </b><a href="#"> Sign up</a>
+    </p>
+</div>
+    
+        </form>
+    </div>
+    
+</body>
+</html>
